@@ -5,7 +5,7 @@ Termboy is LEGO-like fancy vivid theme for Vim and vim-airline.
 ## Install (Pathogen)
 
 ```bash
-https://github.com/retorillo/vim-airline-themes-termboy.vim
+git clone https://github.com/retorillo/termboy.vim ~/.vim/bundle
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ https://github.com/retorillo/vim-airline-themes-termboy.vim
 To enable theme, add the following line to your `~/.vimrc`
 
 ```viml
-# Should before pathogen#infect (if you use pathogen)
+" Should before pathogen#infect (if you use pathogen)
 let g:airline_theme = 'termboy'
 " Should after pathogen#infect (if you use pathogen)
 color termboy
