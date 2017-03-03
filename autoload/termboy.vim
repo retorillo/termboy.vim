@@ -42,7 +42,7 @@ endfunction
 
 function! termboy#term2gui(name)
   return get(g:termboy#guiColors,
-    \ s:lowercamel(a:name[1:]), a:name)
+    \ s:lowercamel(a:name), a:name)
 endfunction
 
 function! termboy#cook(recipe)
