@@ -25,7 +25,7 @@ function! airline#themes#termboy#refresh()
   let g:airline#themes#termboy#palette.insert
     \ = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
   let g:airline#themes#termboy#palette.insert_modified
-    \ = g:airline#themes#base16#palette.normal_modified
+    \ = g:airline#themes#termboy#palette.normal_modified
 
   let s:R1 = s:I1
   let s:R2 = s:N2A
@@ -33,7 +33,7 @@ function! airline#themes#termboy#refresh()
   let g:airline#themes#termboy#palette.replace
     \ = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
   let g:airline#themes#termboy#palette.replace_modified
-    \ = g:airline#themes#base16#palette.normal_modified
+    \ = g:airline#themes#termboy#palette.normal_modified
 
   let s:V1 = s:bgfg('Yellow', 'Black', 'bold')
   let s:V2 = s:N2A
@@ -41,7 +41,7 @@ function! airline#themes#termboy#refresh()
   let g:airline#themes#termboy#palette.visual
     \ = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
   let g:airline#themes#termboy#palette.visual_modified
-    \ = g:airline#themes#base16#palette.normal_modified
+    \ = g:airline#themes#termboy#palette.normal_modified
 
   let s:IA = s:bgfg('DarkGreen', 'White')
   let s:IM = s:IA
