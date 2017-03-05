@@ -3,7 +3,7 @@ call termboy#cook({
   \  'SpecialKey': '!bold Cyan',
   \  'NonText': '!bold Blue',
   \  'Directory': '!bold Cyan',
-  \  'ErrorMsg': 'Red@White',
+  \  'ErrorMsg': 'Yellow@Red',
   \  'IncSearch': '!reverse',
   \  'Search': '!reverse Black@Yellow',
   \  'MoreMsg': '!bold Green',
